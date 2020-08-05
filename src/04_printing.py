@@ -12,6 +12,14 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
+print("Hello, %s, there are %i and %i" % (z, y, x))
+
 # Use the 'format' string method to print the same thing
 
 # Finally, print the same thing using an f-string
+# t = f"hello {z}"
+# print(t)
+
+name = "Eric"
+age = 74
+print(F"Hello, {name}. You are {age}.")
